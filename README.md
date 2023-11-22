@@ -1,0 +1,1 @@
+Tour is a travel agency site. Developed with .Net Core 6.0. Entity Framework Core development approach was used. MVC and N-Tier Architecture were used. (Still Being Developed)

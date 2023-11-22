@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<!-- SLIDER -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_Slider") 
+<!-- SLIDER END -->
+
+<!-- POPULAR DESTINATIONS -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_PopularDestinations")
+<!-- POPULAR DESTINATIONS END -->
+
+<!-- STATISTICS -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_Statistics")
+<!-- STATISTICS END -->
+
+<!-- FEATURES -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_Feature")
+<!-- FEATURES END -->
+
+<!-- SUBABOUT -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_SubAbout")
+<!-- SUBABOUT END -->
+
+<!-- TESTIMONIALS -->
+<!-- Eger bu sekilde direkt sadece isimle ulasmak istiyorsak Shared/Components/{ComponentClassAdı}/Default.cshtml path ini olusturmalıyız. -->
+@await Component.InvokeAsync("_Testimonial")
+<!-- TESTIMONIALS END -->
