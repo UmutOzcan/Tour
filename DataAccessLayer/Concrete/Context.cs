@@ -1,9 +1,11 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
-    public class Context : DbContext
+    // : DbContext ten IdentityDbContext' e cevirdik
+    public class Context : IdentityDbContext<AppUser,AppRole, int>
     {
         // kalıtım aldığımız DbContext methodunu override ettik
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
