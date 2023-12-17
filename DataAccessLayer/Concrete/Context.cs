@@ -10,7 +10,7 @@ namespace DataAccessLayer.Concrete
         // kalıtım aldığımız DbContext methodunu override ettik
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-S4O1A1P;database=HotelDB;integrated security=true");
+            optionsBuilder.UseSqlServer("server=UMUT;database=HotelDB;integrated security=true");
         }
 
         // Entityleri Db ye ekledik
